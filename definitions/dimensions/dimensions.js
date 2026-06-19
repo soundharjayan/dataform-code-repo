@@ -93,7 +93,7 @@ const dimensionModels = [
       ROW_NUMBER() OVER ()                        AS payment_mode_key,
       payment_mode
     FROM ${ctx.ref("stg_recharge")}`
-  }
+  },
 ];
 
 
